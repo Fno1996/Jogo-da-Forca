@@ -1,0 +1,88 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    /* Light blue/light-blue-100 */
+    
+    background: #F3F5FC;
+}
+
+.inputTexto{
+    position: absolute;
+width: 413px;
+height: 48px;
+left: 376px;
+top: 256px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+}
+
+div{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 688px;
+height: 67px;
+left: 376px;
+top: 700px;
+
+}
+.btnNovojogo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 332px;
+    height: 67px;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.btnDesistir{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 332px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
